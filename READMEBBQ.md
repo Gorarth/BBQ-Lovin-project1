@@ -25,37 +25,4 @@ The main font will be Roboto used throughout the whole website with sans serif a
 [Link to wireframe](/assets/PDFwireframeP1.pdf)
 
 
-
-
-
-
-
-<div style="float: left;
-  width: 47%;
-  display: flex"> 
-
-![homepage](/assets/css/readmeimages/Home%20Page.png)
-</div>
-
-<div style="float: right;
-  width: 50%;
-  display: flex">
-
-![recipepage](/assets/css/readmeimages/Recipe%20Pages.png)
-</div>
-
-<div style="float: left;
-  width: 50%;
-  display: flex">
-
-![gallery](/assets//css/readmeimages/Gallery.png)
-</div>
-
-<div style="float: right;
-  width: 40%;
-  display: flex;
-  height: 0%">
-
-![mobilehomepage](/assets/css/readmeimages/Mobile%20Home%20Page.png)
-</div>
 </body>
