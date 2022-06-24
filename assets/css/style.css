@@ -1,3 +1,79 @@
+/* Moblie Nav bar */
+
+@media screen and (max-width: 600px) {
+
+}
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+    line-height: 75px;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    border-bottom: 2px solid #b30000;
+
+}
+
+.active {
+    border-bottom: 2px solid #b30000;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+/* .dropdown .dropdownbtn  {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0; 
+
+} */
+
+.dropdownrecipes {
+    display: none;
+    position: absolute;
+    background-color: #b30000;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1
+}
+
+.dropdownrecipes a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdownrecipes a:hover {
+    background-color: #ddd;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+
 body {
     font-family: 'Roboto', sans-serif;
 }
