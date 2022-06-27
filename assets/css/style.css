@@ -6,13 +6,22 @@
 
 /* nav bar css */
 
+#navimage {
+    background: url('/assets/images/bbqlovin.jpeg') center center;
+    height: 400px;
+    width: 100%;
+    zoom: 55%;
+}
+
+
 #menu {
-    font-size: 110%;
+    font-size: 140%;
     letter-spacing: 2px;
     line-height: 75px;
     overflow: hidden;
     float: right;
     margin-right: 10%;
+    font-weight:bold
 }
 
 #menu li {
@@ -50,12 +59,12 @@
     letter-spacing: 2px;
     background-color: inherit;
     font-family: inherit;
+    font-weight:bold
 }
 
 .dropdownrecipes {
     display: none;
     position: absolute;
-    background-color: #b3b3b3;
     min-width: 180px;
 }
 
@@ -83,4 +92,9 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+}
+
+#backgroundimage {
+    background: url('/assets/images/woodbackground.jpg');
+    width: 100%
 }
