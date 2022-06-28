@@ -70,9 +70,7 @@
     height: 400px;
     width: 100%;
     zoom: 55%;
-    position: absolute;
-    top: 0;
-    left: 0;
+    position: fixed;
 }
 
 
@@ -153,4 +151,10 @@ body {
 #backgroundimage {
     background: url('/assets/images/woodbackground.jpg');
     width: 100%
+}
+
+.introduction {
+    border:#b30000 solid 5px;
+    width:100%;
+    margin-top: 300px;
 }
