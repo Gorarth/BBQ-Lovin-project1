@@ -29,10 +29,8 @@
         width: 100%;
         
     }
+
     
-    .mobilemargintop {
-        margin-top:248px
-    }
 }
 
 @media screen and (min-width: 700px) {
@@ -49,6 +47,8 @@
         overflow: hidden;
         margin-right:100px
     }
+
+    
 }
 
 .nav-toggle {
@@ -62,23 +62,18 @@
     padding: 15px;
     margin-right: 10px;
     color: #3f0000;
-    margin-top: 230px;
     position: absolute;
 }
 
 
 /* nav bar css */
 
-.nav {
-    margin-top: 230px
-}
 
 #navimage {
     background: url('/assets/images/bbqlovin.jpeg') center center;
     height: 400px;
     width: 100%;
     zoom: 55%;
-    position: fixed;
 }
 
 
@@ -151,13 +146,19 @@
 
 /* dropdown menu css end */
 
+html {
+    overflow: scroll;
+    height: 100%
+}
+
 body {
     font-family: 'Roboto', sans-serif;
 }
 
 #backgroundimage {
     background: url('/assets/images/woodbackground.jpg');
-    width: 100%
+    width: 100%;
+   
 }
 
 
@@ -166,14 +167,42 @@ body {
     width:100%;
 }
 
-.img {
-    width:40%;
-    border-radius: 50%;
+.imgleft {
+    width:300px;
+    height:300px;
+    border-radius: 5%;
+    margin-left: 60px
 }
 
-.mainpageinfoleft {
+.mainpageinforight {
     font-weight:bold;
-    width; 50%;
-    float: left;
-    margin-left; 50px;
+    width: 300px;
+    float: center;
+    text-align: center;
+    margin-right: 100px
+}
+
+#maininfo {
+    height: 600px
+}
+
+#maininfotitle {
+    text-align: center;
+}
+
+.grid {
+    display: grid; grid-template-columns: 50% 50%;
+}
+
+@media screen and (max-width: 700px) {
+    .imgleft {
+        margin-left:30px;
+        width: 80%;
+    }
+
+    .mainpageinforight {
+        width: 70%
+
+    }
+    
 }
