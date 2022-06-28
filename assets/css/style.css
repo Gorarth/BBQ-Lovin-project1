@@ -11,21 +11,28 @@
     }
     
     #menu {
-        width: 75%;
-        text-align: center;
-    
+        width: 60%;
+        text-align: center;    
+        overflow:visible;
+        position:absolute;
+        margin-left: 100px
     }
 
+
     .dropdownbackground {
-        background-color: rgba(179,0,0, 0.4)
-    }
-    
-    .dropdownrecipes {
-        background-color: rgba(179,0,0, 0.4);
-        width: 75%;
+        background-color: rgba(179,0,0, 0.8);
         
     }
     
+    .dropdownrecipes {
+        background-color: rgba(179,0,0, 0.8);
+        width: 100%;
+        
+    }
+    
+    .mobilemargintop {
+        margin-top:248px
+    }
 }
 
 @media screen and (min-width: 700px) {
@@ -40,6 +47,7 @@
     .dropdown {
         float: right;
         overflow: hidden;
+        margin-right:100px
     }
 }
 
@@ -55,7 +63,7 @@
     margin-right: 10px;
     color: #3f0000;
     margin-top: 230px;
-    position: fixed;
+    position: absolute;
 }
 
 
@@ -78,10 +86,9 @@
     font-size: 140%;
     letter-spacing: 2px;
     line-height: 75px;
-    overflow: hidden;
-    float: right;
     margin-right: 10%;
-    font-weight:bold
+    font-weight:bold;
+    
 }
 
 #menu a {
@@ -112,7 +119,7 @@
     letter-spacing: 2px;
     background-color: inherit;
     font-family: inherit;
-    font-weight:bold
+    font-weight:bold;
 }
 
 .dropdownrecipes {
@@ -153,8 +160,20 @@ body {
     width: 100%
 }
 
-.introduction {
-    border:#b30000 solid 5px;
+
+#intro {
+    text-align: center;
     width:100%;
-    margin-top: 300px;
+}
+
+.img {
+    width:40%;
+    border-radius: 50%;
+}
+
+.mainpageinfoleft {
+    font-weight:bold;
+    width; 50%;
+    float: left;
+    margin-left; 50px;
 }
