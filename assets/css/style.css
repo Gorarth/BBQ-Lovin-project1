@@ -7,16 +7,30 @@
 
     .nav-toggle:checked ~ nav {
         display: block;
+        width: 100%;
     }
+    
+    #menu {
+        width: 50%;
+    }
+    
+    
     
 }
 
 @media screen and (min-width: 700px) {
     .burger {
-        display:none;
-        
+        display:none;  
     }
     
+    #nav-toggle-column {
+        display: none;
+    }
+
+    .dropdown {
+        float: right;
+        overflow: hidden;
+    }
 }
 
 .nav-toggle {
@@ -29,7 +43,9 @@
     float: right;
     padding: 15px;
     margin-right: 10px;
+    position: fixed;
 }
+
 
 /* nav bar css */
 
@@ -38,6 +54,9 @@
     height: 400px;
     width: 100%;
     zoom: 55%;
+    /* position: absolute; */
+    top: 0;
+    left: 0;
 }
 
 
@@ -51,12 +70,6 @@
     font-weight:bold
 }
 
-#menu li {
-    float: right;
-    list-style-type: none;
-    margin-right: 30px;
-}
-
 #menu a {
     text-decoration: none;
     color: inherit;
@@ -64,20 +77,25 @@
 }
 
 #menu a:hover {
-    border-bottom: 2px solid #b30000;
+    border-bottom: 4px solid #b30000;
 
 }
 
 .active {
-    border-bottom: 2px solid #b30000;
+    border-bottom: 4px solid #b30000;
+    border-top: 4px solid #b30000;
+}
+
+#menu a::before {
+
+    content: '';
+    transform: scale(0, 1);
+    transition: transform ease-in-out 250ms
 }
 
 /* dropdown menu for recipes */
 
-.dropdown {
-    float: right;
-    overflow: hidden;
-}
+
 
 .dropdown .dropdownbtn  {
     border: none;
@@ -101,13 +119,14 @@
     padding: 1px 1px;
     text-decoration: none;
     display: block;
-    text-align: center;
-    block-size: 20px;
-    line-height: 90%
+    text-align: left;
+    block-size: 30px;
+    line-height: 90%;
+    
 }
 
 .dropdownrecipes a:hover {
-    background-color: #b30000;
+    border-bottom: 4px solid #b30000;
   }
 
   .dropdown:hover .dropdownrecipes {
