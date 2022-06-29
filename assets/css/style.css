@@ -182,9 +182,6 @@ body {
     margin-right: 100px
 }
 
-#maininfo {
-    height: 600px
-}
 
 #maininfotitle {
     text-align: center;
@@ -206,3 +203,16 @@ body {
     }
     
 }
+
+.copyright {
+    font-size:50%;
+}
+
+footer {
+    margin-bottom: 15px;
+    text-align: center;
+    font-size:300%;
+    text-decoration: none;
+
+}
+
