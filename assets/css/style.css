@@ -186,10 +186,10 @@ body {
 
 .gridtextboxleft {
     font-weight:bold;
-    width: 250px;
     float: center;
-    text-align: center;
+    /* text-align: center; */
     margin-left: 20%;
+    margin-right: 20%;
 }
 
 .grid {
@@ -208,6 +208,10 @@ footer {
     text-decoration: none;
 }
 
+a {
+    text-decoration: none;
+}
+
 .pagetitlep {
     font-weight:bold;
     width: 80%;
@@ -220,8 +224,17 @@ footer {
 }
 
 .pagetitleh1 {
-    font-weight:bold;
     font-size:200%;
+    width: 80%;
+    float: center;
+    text-align: center;
+    padding: 15px;
+    margin-left:10%;
+    margin-right:10%;
+    text-decoration: underline;
+}
+
+.pagesubtitleh2 {
     width: 80%;
     float: center;
     text-align: center;
@@ -240,15 +253,8 @@ footer {
 }
 
 @media screen and (max-width: 700px) {
-    .imgleft {
-        margin-left:130px;
-        height:300px;
-        width:300px;
-    }
-
-    .imgright {
-        margin-left: 130px;
-    }
+    
+    
 
     .mainpageinforight {
         width: 70%
@@ -259,8 +265,40 @@ footer {
         grid-template-columns: 100%
     }
 
-    .gridtextboxleft, .recipegridboxleft {
-        margin-left:30%;
+    .recipegridboxleft {
+        margin-left:15%;
+        margin-right:10%;
+        float: center;
     }
 
+    .gridtextboxleft {
+        margin-left:10%;
+        margin-right:10%;
+        float: center;
+    }
+
+    .imgright, .imgleft {
+        all:unset;
+
+        margin-left:15%;
+        margin-right:10%;
+        height:300px;
+        width:300px;
+        border-radius: 5%;
+
+    }
+
+    .pagetitleh1, .pagetitlep {
+        padding:unset;
+        margin-left:10%
+    }
+
+}
+
+@media screen and (min-width: 1200px) {
+    .imgright, .imgleft {
+        height:400px;
+        width:400px;
+    }
+    
 }
