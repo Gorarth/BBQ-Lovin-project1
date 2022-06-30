@@ -157,7 +157,7 @@ body {
 }
 
 #backgroundimage {
-    background: url('/assets/images/woodbackground1.jpg');
+    background: url(/assets/images/woodenbackgroundopacity60.jpeg);
     width: 100%;
     top:0;
     right:0;
