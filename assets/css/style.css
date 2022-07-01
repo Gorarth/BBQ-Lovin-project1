@@ -63,6 +63,7 @@
     margin-right: 10px;
     color: #3f0000;
     position: absolute;
+    z-index: 99;
 }
 
 
@@ -83,7 +84,7 @@
     line-height: 75px;
     margin-right: 10%;
     font-weight:bold;
-    
+    z-index: 99;
 }
 
 #menu a {
@@ -121,6 +122,7 @@
     display: none;
     position: absolute;
     min-width: 180px;
+    z-index: 99;
 }
 
 .dropdownrecipes a {
@@ -132,6 +134,7 @@
     text-align: center;
     block-size: 30px;
     line-height: 90%;
+    
     
 }
 
@@ -187,7 +190,6 @@ body {
 .gridtextboxleft {
     font-weight:bold;
     float: center;
-    /* text-align: center; */
     margin-left: 20%;
     margin-right: 20%;
 }
@@ -302,3 +304,84 @@ a {
     }
     
 }
+
+/* Gallery photos */
+
+.gallery li {
+	float: left;
+	padding: 20px 10px 30px 10px;
+	background: rgb(204, 204, 204);
+	border: 1.5px solid #b30000;
+    list-style: none;
+    position: relative;
+}
+
+.gallery li img {
+    height:400px;
+    width:400px;
+}
+
+.gallerypic1 {
+    z-index: 2;
+    transform: rotate (10deg);
+    -webkit-transform: rotate(10deg);
+	-moz-transform: rotate(10deg);
+}
+
+.gallerypic2 {
+    z-index: 1;
+    transform: rotate (-8deg);
+    -webkit-transform: rotate(-8deg);
+	-moz-transform: rotate(-8deg);
+}
+
+.gallerypic3 {
+    z-index: 5;
+    transform: rotate (19deg);
+    -webkit-transform: rotate(19deg);
+	-moz-transform: rotate(19deg);
+}
+
+.gallerypic4 {
+    z-index: 3;
+    transform: rotate (-28deg);
+    -webkit-transform: rotate(-28deg);
+	-moz-transform: rotate(-28deg);
+}
+
+.gallerypic5 {
+    z-index: 3;
+    transform: rotate (28deg);
+    -webkit-transform: rotate(28deg);
+	-moz-transform: rotate(28deg);
+}
+
+.gallerypic6 {
+    z-index: 4;
+    transform: rotate (-2deg);
+    -webkit-transform: rotate(-2deg);
+	-moz-transform: rotate(-2deg);
+}
+
+.gallerypic7 {
+    z-index: 1;
+    transform: rotate (11deg);
+    -webkit-transform: rotate(11deg);
+	-moz-transform: rotate(11deg);
+}
+
+.gallerypic8 {
+    z-index: 3;
+    transform: rotate (-21deg);
+    -webkit-transform: rotate(-21deg);
+	-moz-transform: rotate(-21deg);
+}
+
+.imghover:hover {
+    z-index: 99;
+    
+    transform: rotate(360deg);
+    transition: 0.5s
+}
+
+/* gallery photos end */
