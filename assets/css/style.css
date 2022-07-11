@@ -1,156 +1,10 @@
-/* Moblie Nav bar */
-
-@media screen and (max-width: 700px) {
-    nav {
-        display: none;
-    }
-
-    .nav-toggle:checked ~ nav {
-        display: block;
-        width: 100%;
-    }
-    
-    #menu {
-        width: 60%;
-        text-align: center;    
-        overflow:visible;
-        position:absolute;
-        margin-left: 100px
-    }
-
-
-    .dropdownbackground {
-        background-color: rgba(179,0,0, 0.8);
-        
-    }
-    
-    .dropdownrecipes {
-        background-color: rgba(179,0,0, 0.8);
-        width: 100%;
-        
-    }
-
-    
-}
-
-@media screen and (min-width: 700px) {
-    .burger {
-        display:none;  
-    }
-    
-    #nav-toggle-column {
-        display: none;
-    }
-
-    .dropdown {
-        float: right;
-        overflow: hidden;
-        margin-right:100px
-    }
-
-    
-}
-
-.nav-toggle {
-    display: none;
-    
-}
-
-.burger {
-    font-size: 300%;
-    float: left;
-    padding: 15px;
-    margin-right: 10px;
-    color: #3f0000;
-    position: absolute;
-    z-index: 99;
-}
-
-
-/* nav bar css */
-
-
-#navimage {
-    background: url('/assets/images/bbqlovin.jpeg') center center;
-    height: 400px;
-    width: 100%;
-    zoom: 55%;
-}
-
-
-#menu {
-    font-size: 140%;
-    letter-spacing: 2px;
-    line-height: 75px;
-    margin-right: 10%;
-    font-weight:bold;
-    z-index: 99;
-}
-
-#menu a {
-    text-decoration: none;
-    color: inherit;
-    padding: 14px 16px;
-}
-
-#menu a:hover {
-    border-bottom: 4px solid #b30000;
-
-}
-
-.active {
-    border-bottom: 4px solid #b30000;
-    border-top: 4px solid #b30000;
-}
-
-
-/* dropdown menu for recipes */
-
-
-
-.dropdown .dropdownbtn  {
-    border: none;
-    outline: none;
-    font-size: 110%;
-    letter-spacing: 2px;
-    background-color: inherit;
-    font-family: inherit;
-    font-weight:bold;
-}
-
-.dropdownrecipes {
-    display: none;
-    position: absolute;
-    min-width: 180px;
-    z-index: 99;
-}
-
-.dropdownrecipes a {
-    
-    color: black;
-    padding: 1px 1px;
-    text-decoration: none;
-    display: block;
+* {
+    top: 0;
+    left: 0;
     text-align: center;
-    block-size: 30px;
-    line-height: 90%;
-    
-    
 }
-
-.dropdownrecipes a:hover {
-    background: #b30000;
-  }
-
-  .dropdown:hover .dropdownrecipes {
-    display: block;
-  }
-
-
-/* dropdown menu css end */
 
 html {
-    overflow: scroll;
     height: 100%;
     overflow-x: hidden;
 }
@@ -159,7 +13,137 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-#backgroundimage {
+footer {
+    margin-bottom: 15px;
+    text-align: center;
+    font-size:300%;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav_bar {
+    height: 100%;
+    width: 100px;
+    position: fixed;
+    z-index: 333;
+    top: 0;
+    left: 0;
+    background-color: black;
+    padding-top:20px;
+    color:#b30000;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: width 200ms ease;
+}
+
+.nav_bar_logo {
+    width: 100px;
+}
+
+.nav_bar a {
+    padding: 20px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    display: none;
+    color:#b30000;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav_bar_p {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    display: none;
+    color:#b30000;
+}
+
+.nav_bar_images {
+    font-size: 50px;
+}
+
+.nav_bar:hover {
+    width: 500px;
+}
+
+.nav_bar:hover a {
+    display: block;
+}
+
+.nav_bar:hover p {
+    display: block;
+}
+
+.nav_bar a:hover {
+    border-bottom: solid #b30000 3px;
+}
+/* start of parallax effect css */
+
+.parallax_wrapper {
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    perspective: 300px;
+    margin-left: 90px;
+}
+
+.parallax_group {
+    height:120vh;
+    position: relative;
+    transform-style:preserve-3d
+}
+
+.parallax_layer {
+    position: absolute;
+    inset: 0;
+    height: 60vh;
+}
+
+.intro_screen {
+    background-image: url(/assets/images/chickenwings2.webp);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+    margin-top:0;
+}
+
+.outro_screen {
+    height:100vh;
+    background-image: url(/assets/images/brisketsliced.webp);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.top_layer {
+    
+}
+
+.mid_layer {
+    height: 75vh;
+    background-image: url(/assets/images/brisketcooked.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+
+.bot_layer {
+    margin-top:15vh;
+
+}
+
+
+/* end of parallax effect css */
+
+.background_image {
     background: url(/assets/images/woodenbackgroundopacity60.jpeg);
     width: 100%;
     top:0;
@@ -168,7 +152,7 @@ body {
 }
 
 
-#intro {
+.intro {
     text-align: center;
     width:100%;
 }
@@ -203,40 +187,18 @@ body {
     font-size:50%;
 }
 
-footer {
-    margin-bottom: 15px;
-    text-align: center;
-    font-size:300%;
-    text-decoration: none;
-}
-
-a {
-    text-decoration: none;
-}
-
-.pagetitlep {
-    font-weight:bold;
-    width: 80%;
-    float: center;
-    text-align: center;
-    padding: 15px;
-    margin-left:10%;
-    margin-right:10%;
-    list-style: none;
-}
-
-.pagetitleh1 {
+.information_h1 {
     font-size:200%;
-    width: 80%;
     float: center;
     text-align: center;
     padding: 15px;
-    margin-left:10%;
-    margin-right:10%;
     text-decoration: underline;
+    width: 40%;
+    margin-left: 30%;
+    color:#b30000
 }
 
-.pagesubtitleh2 {
+.information_h2 {
     width: 80%;
     float: center;
     text-align: center;
@@ -244,7 +206,30 @@ a {
     margin-left:10%;
     margin-right:10%;
     text-decoration: underline;
+    color:#b30000
 }
+
+.information_text {
+    font-weight:bold;
+    float: center;
+    text-align: center;
+    padding: 15px;
+    width: 40%;
+    margin-left: 30%;
+    color:#b30000
+}
+
+.information_list {
+    font-weight:bold;
+    float: center;
+    text-align: center;
+    padding: 15px;
+    width: 40%;
+    margin-left: 30%;
+    list-style: none;
+    color:#b30000
+}
+
 
 .recipegridboxleft {
     font-weight:bold;
@@ -252,57 +237,6 @@ a {
     float: center;
     text-align: left;
     margin-left: 20%;
-}
-
-@media screen and (max-width: 700px) {
-    
-    
-
-    .mainpageinforight {
-        width: 70%
-
-    }
-    
-    .grid {
-        grid-template-columns: 100%
-    }
-
-    .recipegridboxleft {
-        margin-left:15%;
-        margin-right:10%;
-        float: center;
-    }
-
-    .gridtextboxleft {
-        margin-left:10%;
-        margin-right:10%;
-        float: center;
-    }
-
-    .imgright, .imgleft {
-        all:unset;
-
-        margin-left:15%;
-        margin-right:10%;
-        height:300px;
-        width:300px;
-        border-radius: 5%;
-
-    }
-
-    .pagetitleh1, .pagetitlep {
-        padding:unset;
-        margin-left:10%
-    }
-
-}
-
-@media screen and (min-width: 1200px) {
-    .imgright, .imgleft {
-        height:400px;
-        width:400px;
-    }
-    
 }
 
 /* Gallery photos */
@@ -384,11 +318,85 @@ a {
     transition: 0.5s
 }
 
+
 @media screen and (max-width: 700px) {
+
+    .nav_bar {
+        width:60px;
+    }
+
+    .nav_bar:hover {
+        width: 100%
+    }
+
+    .nav_bar_logo {
+        width:60px
+    }
+
+    .information_h1 {
+        width: 70%;
+        margin-left:30px
+    }
+
+    .information_h2 {
+        width: 70%;
+        margin-left:30px
+    }
+
+    .information_text {
+        width: 70%;
+        margin-left:30px
+    }
+
+    .information_list {
+        width: 70%;
+        margin-left:30px
+    }
+
     .gallery li img {
         width:250px;
         height:250px;
     }
 
+    .parallax_wrapper {
+        margin-left: 60px;
+    }
+
+
+    
+    .grid {
+        grid-template-columns: 100%
+    }
+
+    .recipegridboxleft {
+        margin-left:15%;
+        margin-right:10%;
+        float: center;
+    }
+
+    .gridtextboxleft {
+        margin-left:10%;
+        margin-right:10%;
+        float: center;
+    }
+
+    .imgright, .imgleft {
+        all:unset;
+
+        margin-left:15%;
+        margin-right:10%;
+        height:300px;
+        width:300px;
+        border-radius: 5%;
+
+    }
+
 }
-/* gallery photos end */
+
+@media screen and (min-width: 1200px) {
+    .imgright, .imgleft {
+        height:400px;
+        width:400px;
+    }
+    
+}
