@@ -1,71 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BBQ Lovin</title>
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <script src="https://kit.fontawesome.com/cd8216e40b.js" crossorigin="anonymous"></script>
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 </head>
 
 
-<body id="backgroundimage">
+
+<body class="background_image" ontouchstart>
     
     <header>
-        <div id="navimage"> </div>
-        <br>
-        <label for="nav-toggle" class="nav-toggle-label">
-            <span class="burger">
-                <i class="fa-solid fa-burger"></i>
-            </span>
-        </label>
-        <input type="checkbox" id ="nav-toggle" class="nav-toggle">
-    <nav class="nav">
-        <div id="menu" class="dropdownbackground">
-            <a href="index.html">Home</a>
-            <Br id="nav-toggle-column">
+
+        <nav class="nav_bar">
+            <img src="/assets/images/bbqloving.png" alt="bbq loving logo" class="nav_bar_logo">
+            <br>
+                <i class="fa-solid fa-house nav_bar_images"></i> 
                 
-            <a href="gallery.html">Gallery</a>
-            <br id="nav-toggle-column">
+                <a href="index.html"> Home</a>     
+            <br>
+                <i class="fa-solid fa-camera-retro nav_bar_images"></i>
             
-            <div class="dropdown">   
+                <a href="gallery.html"> Gallery</a>    
+            <br>
+                <i class="fa-solid fa-burger nav_bar_images"></i>    
 
-            <button class="dropdownbtn">Recipes 
-                <i class="fa-solid fa-angles-down"></i>
-                </button>
-            <div class="dropdownrecipes">
-                <a href="recipe-brisket.html">Brisket</a>
-                <a href="recipe-pulledpork.html">Pulled Pork</a>
-                <a href="recipe-ribs.html">Baby Back Ribs</a>
-                <a href="recipe-rubs.html">Our Rubs</a>
-            </div>  
-            </div>  
-        </div>
-    </nav>
+                <p class="nav_bar_p"> Recipes</p>
+                
+                <a href="/Recipes/brisket.html">Brisket</a>
+
+                <a href="/Recipes/pulledpork.html">Pulled Pork</a>
+
+                <a href="/Recipes/ribs.html">Baby Back Ribs</a>
+    
+                <a href="/Recipes/rubs.html">Our Rubs</a>
+            
+        </nav>
     </header>
+    
+    <div class="parallax_wrapper">    
 
-    <section>
-        <div>
-            <h1 class="pagetitleh1">Our Rubs</h1>
-            <p class="pagetitlep">
-                Here you will find all the rubs you need to execute our recipes.  
-                <br>
-                Mix all the herbs and spices together to create a beautiful rub for the meat you need! 
-                <br>
-                These can be made and stored for months at a time, so don't worry about making too much! 
-            </p>
-        </div>
-        <div class="grid">
-            <div class="gridtextboxleft">
-                <h1>Memphis Style Pork Rub</h1>
-                <p>
+            <div class="parallax_group intro_screen_rubs">
+            </div>
+
+            <div class="parallax_group">
+                
+            <div class="parallax_top_layer">
+                <div>
+                    <h1 class="information_h1">Our Rubs</h1>
+                    <p class="information_text">
+                        Here you will find all the rubs you need to execute our recipes.  
+                        <br>
+                        Mix all the herbs and spices together to create a beautiful rub for the meat you need! 
+                        <br>
+                        These can be made and stored for months at a time, so don't worry about making too much! 
+                    </p>
+                </div>
+                <div class="parallax_top_layer_ribs">
+
+                </div>
+            </div>
+            </div>
+            <div class="parallax_group"> 
+            <div class="parallax_mid_layer_text">
+                <div>
+                    <h1 class="information_h1">Memphis Style Pork Rub</h1>
+                <p class="information_text">
                     Here's our recipe for a great all purpose pork rub. It is carefully formulated to flavor, color, and form the proper crust when cooked at low temps. Can use on anything pork related, however can also work on chicken and vegetables aswell! 
                 </p>
-                <ul>
+                <ul class="information_list">
                     <li>3/4 cup dark brown sugar</li>
                     <li>3/4 cup white sugar</li>
                     <li>1/2 cup paprika</li>
@@ -75,60 +85,77 @@
                     <li>2 tablespoons onion powder</li>
                     <li>2 tablespoons rosemary powder</li>
                 </ul>
-            </div>
-
-            <div class="gridtextboxleft">
-                <h1>Lemon and Herb Rub</h1>
-                <p>
+                </div>
+                <div>
+                    <h1 class="information_h1">Lemon and Herb Rub</h1>
+                <p class="information_text">
                     This lemon and herb rub is perfect for chicken. We use it for chicken wings and whole chickens, pulled chicken and everything in between! 
                     <br>
                     When smoking chicken its worth noting that it can sometimes leave a pink colour in the meat, this is perfectly fine aslong as you following the recipe and check the temperature of the meat when ready.
                 </p> 
-                <ul>
+                <ul class="information_list">
                     <li>1 cup mixed herbs</li>
                     <li>1/2 cup garlic powder</li>
                     <li>1/2 cup table salt</li>
                     <li>1/2 cup lemon zest powder</li>
                 </ul>
+                </div>
+                <div class="parallax_mid_layer_lemonandherbs">
+
+                </div>
+            </div> 
+
             </div>
 
-            <div class="gridtextboxleft">
-                <h1>Big Bad Beefy Rub</h1>
-                <p>
+            <div class="parallax_group">
+
+            <div class="parallax_bot_layer parallax_bot_layer_media">
+                <div>
+                    <h1 class="information_h1">Big Bad Beefy Rub</h1>
+                <p class="information_text">
                     This recipe is perfect for anything beefy, Brisket, Ribs, Steaks and more! 
                     <br>
                     It's best when using this rub to apply to your meat a good 1 hour or more before you plan on cooking. This will cause the rub to stick to your meat better and give it a better crust and flavour! 
                 </p>
-                <ul>
+                <ul class="information_list">
                     <li>1 cup coarse sea salt</li>
                     <li>1 cup cracked black pepper</li>
                     <li>1/2 cup garlic powder</li>
                     <li>1/2 cup mixed herbs</li>
                     <li>1/2 cup onion powder</li>
                 </ul>
-            </div>
-
-            <div class="gridtextboxleft">
-                <h1>Larry's Lamb Rub</h1>
-                <p>
+                </div>
+                <div>
+                    <h1 class="information_h1">Larry's Lamb Rub</h1>
+                <p class="information_text">
                     This lamb rub is full of flavour from herbs. It's amazing on lamb and its also great rubbed chicken or used to season vegetables!  
                 </p>
-                <ul>
+                <ul class="information_list">
                     <li>1/2 cup dried rosemary</li>
                     <li>1/2 cup dried thyme</li>
                     <li>1/2 cup garlic powder</li>
                     <li>1/4 cup table salt</li>
                     <li>1/2 cup ground black pepper</li>
                 </ul>
+                </div>
+                
+            </div>
+            <div class="parallax_group outro_screen_rubs">
+            </div>
+            </div>
+        
+            <div class="parallax_group outro_screen_rubs">
             </div>
 
-        </div>
-    </section>
+        <footer>
+            <a href="https://www.instagram.com/chefenglish25/" target="_blank" class="fa-brands fa-instagram-square"></i></a>
+            <div class="copyright">&copy; Copyright 2022, BBQLovin' limited</div>
+        </footer>
 
+    </div>
 
-    <footer>
-        <a href="https://www.instagram.com/chefenglish25/" target="_blank" class="fa-brands fa-instagram-square"></i></a>
-        <div class="copyright">&copy; Copyright 2022, BBQLovin' limited</div>
-    </footer>
 </body>
+
+</div>
+
 </html>

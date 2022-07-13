@@ -120,6 +120,15 @@ a {
     background-attachment: fixed;
 }
 
+.intro_screen_rubs {
+    background-image: url(/assets/images/spices.webp);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 80vh;
+    background-attachment: fixed;
+}
+
 .outro_screen {
     height:100vh;
     background-image: url(/assets/images/brisketsliced.webp);
@@ -133,8 +142,25 @@ a {
     background-attachment: fixed;
 }
 
+.outro_screen_rubs {
+    height: 100vh;
+    background-image: url(/assets/images/spices1.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 60vh;
+}
+
 .parallax_top_layer {
-    height: 80vh;
+    height: 100vh;
+}
+
+.parallax_top_layer_ribs {
+    height: 70vh;
+    background-image: url(/assets/images/ribs_getting_rubbed.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .parallax_mid_layer {
@@ -151,6 +177,17 @@ a {
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
+}
+
+.parallax_mid_layer_lemonandherbs {
+    height: 40vh;
+    background-image: url(/assets/images/lemon_and_herbs.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+    transform-style:preserve-3d;
+    background-size:60vh
 }
 
 .parallax_mid_layer_text {
@@ -394,6 +431,15 @@ a {
 
     .outro_screen_brisket {
         margin-top: 20vh
+    }
+
+    .parallax_bot_layer_media {
+        margin-top: 30vh
+    }
+
+    .intro_screen_rubs {
+        height: 40vh;
+        background-position-y: top;
     }
     
     .grid {
