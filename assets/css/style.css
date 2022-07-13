@@ -24,6 +24,8 @@ a {
     text-decoration: none;
 }
 
+/* nav bar css */
+
 .nav_bar {
     height: 100%;
     width: 100px;
@@ -83,7 +85,8 @@ a {
 .nav_bar a:hover {
     border-bottom: solid #b30000 3px;
 }
-/* start of parallax effect css */
+
+/* end of nav bar ccs - start of parallax effect css */
 
 .parallax_wrapper {
     height: 100vh;
@@ -99,12 +102,6 @@ a {
     transform-style:preserve-3d
 }
 
-.parallax_layer {
-    position: absolute;
-    inset: 0;
-    height: 60vh;
-}
-
 .intro_screen {
     background-image: url(/assets/images/chickenwings2.webp);
     background-size:contain;
@@ -112,7 +109,15 @@ a {
     background-position: center;
     height: 100vh;
     background-attachment: fixed;
-    margin-top:0;
+}
+
+.intro_screen_brisket {
+    background-image: url(/assets/images/brisketsliced2.webp);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
 }
 
 .outro_screen {
@@ -121,14 +126,28 @@ a {
     background-size: cover;
     background-attachment: fixed;
 }
-
-.top_layer {
-    
+.outro_screen_brisket {
+    height:100vh;
+    background-image: url(/assets/images/brisketsliced2.webp);
+    background-size: cover;
+    background-attachment: fixed;
 }
 
-.mid_layer {
-    height: 75vh;
+.parallax_top_layer {
+    height: 80vh;
+}
+
+.parallax_mid_layer {
+    height: 90vh;
     background-image: url(/assets/images/brisketcooked.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.parallax_mid_layer_brisket {
+    height: 90vh;
+    background-image: url(/assets/images/brisketraw.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -136,9 +155,16 @@ a {
 
 
 
-.bot_layer {
+.parallax_bot_layer {
     margin-top:15vh;
+}
 
+.parallax_bot_layer_woodchunks {
+    height: 40vh;
+    background-image: url(/assets/images/woodchunks.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 
