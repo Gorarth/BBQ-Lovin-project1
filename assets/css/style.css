@@ -268,7 +268,6 @@ a {
 
 .information_h1 {
     font-size:200%;
-    float: center;
     text-align: center;
     padding: 15px;
     text-decoration: underline;
@@ -279,7 +278,6 @@ a {
 
 .information_h2 {
     width: 60%;
-    float: center;
     text-align: center;
     padding: 15px;
     margin-left:15%;
@@ -289,7 +287,6 @@ a {
 
 .information_h2_no_underline {
     width: 60%;
-    float: center;
     text-align: center;
     padding: 15px;
     margin-left:15%;
@@ -298,7 +295,6 @@ a {
 
 .information_text {
     font-weight:bold;
-    float: center;
     text-align: center;
     padding: 15px;
     width: 60%;
@@ -308,7 +304,6 @@ a {
 
 .information_list {
     font-weight:bold;
-    float: center;
     text-align: center;
     padding: 15px;
     width: 60%;
@@ -429,12 +424,12 @@ a {
 }
 
 .gallerypic11 {
+    top:70%;
+    left:65%;
     z-index: 9;
     transform: rotate (21deg);
     -webkit-transform: rotate(21deg);
 	-moz-transform: rotate(21deg);
-    top:70%;
-    left:65%;
 }
 
 .imghover:hover {
@@ -442,8 +437,6 @@ a {
     
     transform: rotate(0deg);
     transition: 0.5s;
-    -webkit-box-shadow: 4px 4px 8px rgba(0,0, 0, 0.5);
-	-moz-box-shadow: 4px 4px 8px rgba(0,0, 0, 0.5);
 	box-shadow: 4px 4px 8px rgba(0,0, 0, 0.5);
     background:white;
     border: 3px solid #b30000;
@@ -497,9 +490,7 @@ a {
     }
 
     .row {
-        display: -ms-flexbox;
         display: flex;
-        -ms-flex-wrap: wrap;
         flex-wrap: wrap;
         flex: 100%;
         margin-left:10%;
