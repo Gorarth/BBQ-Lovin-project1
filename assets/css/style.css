@@ -122,6 +122,15 @@ a {
     background-attachment: fixed;
 }
 
+.intro_screen_pulledpork {
+    background-image: url(/assets/images/pulledpork.webp);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
 .intro_screen_rubs {
     background-image: url(/assets/images/spices.webp);
     background-size:contain;
@@ -151,6 +160,17 @@ a {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 60vh;
+}
+
+.outro_screen_pulledpork {
+    height:100vh;
+    background-image: url(/assets/images/pulledporkbun.webp);
+    background-size: contain;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    margin-top:-40px;
+    margin-left: 10%;
+    
 }
 
 .parallax_top_layer {
@@ -193,6 +213,30 @@ a {
     background-size:60vh
 }
 
+.parallax_mid_layer_porkbutt {
+    height: 50vh;
+    background-image: url(/assets/images/porkbutt.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+    transform-style:preserve-3d;
+    background-size:60vh;
+    margin-left: 10%;
+}
+
+.parallax_mid_layer_porkbuttcooked {
+    height: 75vh;
+    background-image: url(/assets/images/smoked-pork-butt.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+    transform-style:preserve-3d;
+    background-size:60vh;
+    margin-left: 10%;
+}
+
 .parallax_mid_layer_text {
     height: 120vh;
 }
@@ -230,7 +274,7 @@ a {
     text-decoration: underline;
     width: 60%;
     margin-left: 15%;
-    /* color:#b30000 */
+    letter-spacing: 3px;
 }
 
 .information_h2 {
@@ -240,7 +284,16 @@ a {
     padding: 15px;
     margin-left:15%;
     text-decoration: underline;
-    /* color:#b30000 */
+    letter-spacing: 2px;
+}
+
+.information_h2_no_underline {
+    width: 60%;
+    float: center;
+    text-align: center;
+    padding: 15px;
+    margin-left:15%;
+    letter-spacing: 2px;
 }
 
 .information_text {
@@ -457,13 +510,23 @@ a {
         left: unset; 
     }
 
+    .parallax_mid_layer_porkbutt, .parallax_mid_layer_porkbuttcooked {
+        margin-left: unset
+    }
     
     .parallax_wrapper {
         margin-left: 60px;
     }
 
-    .outro_screen_brisket {
+    .outro_screen_brisket, .outro_screen_pulledpork {
         margin-top: 20vh
+    }
+
+    .outro_screen_pulledpork {
+        background-size:contain;
+        background-repeat: no-repeat;
+        height: 80vh;
+        margin-top:10px
     }
 
     .parallax_bot_layer_media {
