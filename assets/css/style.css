@@ -140,6 +140,14 @@ a {
     background-attachment: fixed;
 }
 
+.intro_screen_ribs {
+    background-image: url(/assets/images/ribscooked2.webp);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 80vh;
+    background-attachment: fixed;
+}
 .outro_screen {
     height:100vh;
     background-image: url(/assets/images/brisketsliced.webp);
@@ -163,27 +171,25 @@ a {
 }
 
 .outro_screen_pulledpork {
-    height:100vh;
+    height:90vh;
     background-image: url(/assets/images/pulledporkbun.webp);
     background-size: contain;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    margin-top:-40px;
-    margin-left: 10%;
-    
+    background-position: center;  
+    margin-top:30px;  
+}
+
+.outro_screen_ribs {
+    height: 100vh;
+    background-image: url(/assets/images/ribs\ and\ wings\ platter.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .parallax_top_layer {
     height: 100vh;
-}
-
-.parallax_top_layer_ribs {
-    height: 70vh;
-    background-image: url(/assets/images/ribs_getting_rubbed.webp);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size:80%
 }
 
 .parallax_mid_layer {
@@ -211,6 +217,16 @@ a {
     position: relative;
     transform-style:preserve-3d;
     background-size:60vh
+}
+.parallax_mid_layer_ribs {
+    height: 100vh;
+    background-image: url(/assets/images/ribs_getting_rubbed.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+    transform-style:preserve-3d;
+    background-size:90vh
 }
 
 .parallax_mid_layer_porkbutt {
@@ -528,7 +544,16 @@ a {
         height: 40vh;
         background-position-y: top;
     }
+
+    .parallax_mid_layer_ribs {
+        margin-top: 20vh;
+    }
+
+    .outro_screen_ribs {
+        background-size: 50vh;
+    }
 }
 
-@media screen and (min-width: 1200px) {    
+@media screen and (min-width: 1200px) {  
+    
 }
