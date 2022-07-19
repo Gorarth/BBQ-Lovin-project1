@@ -468,19 +468,7 @@ a {
 
 @media screen and (max-width: 700px) {
 
-    .information_h1 {
-        width: 70%;
-    }
-
-    .information_h2 {
-        width: 70%;
-    }
-
-    .information_text {
-        width: 70%;
-    }
-
-    .information_list {
+    .information_h1, .information_h2, .information_h2_no_underline, .information_text, .information_list {
         width: 70%;
     }
 
@@ -509,11 +497,7 @@ a {
         left: unset; 
     }
 
-    .parallax_mid_layer_porkbutt, .parallax_mid_layer_porkbuttcooked {
-        margin-left: unset
-    }
-
-    .parallax_wrapper {
+    .parallax_wrapper, .information_h1, .information_h2, .information_h2_no_underline, .information_text, .information_list, .parallax_mid_layer_porkbutt, .parallax_mid_layer_porkbuttcooked {
         margin-left: unset;
     }
 
@@ -533,11 +517,11 @@ a {
     }
 
     .parallax_bot_layer {
-        height:180vh;
+        height:220vh;
     }
 
     .parallax_mid_layer_porkbuttcooked {
-        height: 120vh;
+        height: 60vh;
     }
 
     .intro_screen_rubs {
@@ -550,7 +534,7 @@ a {
     }
 
     .parallax_top_layer {
-        height:150vh;
+        height:220vh;
     }
 
     .outro_screen_ribs {
