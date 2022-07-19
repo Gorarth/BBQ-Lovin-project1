@@ -1,5 +1,5 @@
 <body>
-<h1 style="text-align: center;">The BBQ Bible</h1>
+<h1 style="text-align: center;">BBQ Lovin</h1>
 
 - This is a website designed for people who would like to learn how to smoke meats and BBQ foods. It has been made to be responsive and accessible on a range of devices. 
 

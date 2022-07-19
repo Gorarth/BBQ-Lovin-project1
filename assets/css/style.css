@@ -92,7 +92,7 @@ a {
 }
 
 .intro_screen {
-    background-image: url(/assets/images/chickenwings2.webp);
+    background-image: url(assets/images/chickenwings2.webp);
     background-size:contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -137,7 +137,7 @@ a {
 }
 .outro_screen {
     height:100vh;
-    background-image: url(/assets/images/brisketsliced.webp);
+    background-image: url(assets/images/brisketsliced.webp);
     background-size: cover;
     background-attachment: fixed;
 }
@@ -181,7 +181,7 @@ a {
 
 .parallax_mid_layer {
     height: 90vh;
-    background-image: url(/assets/images/brisketcooked.webp);
+    background-image: url(assets/images/brisketcooked.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -270,7 +270,7 @@ a {
 /* end of parallax effect css */
 
 .background_image {
-    background: url(/assets/images/woodenbackgroundopacity60.webp);
+    background: url(assets/images/woodenbackgroundopacity60.webp);
     width: 100%;
     top:0;
     right:0;
