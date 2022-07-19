@@ -146,6 +146,7 @@ a {
     background-image: url(../images/brisketsliced2.webp);
     background-size: cover;
     background-attachment: fixed;
+    margin-top: 10vh;
 }
 
 .outro_screen_rubs {
@@ -179,8 +180,16 @@ a {
     height: 100vh;
 }
 
+.parallax_top_layer_ribs {
+    height: 100vh;
+}
+
+.parallax_top_layer_index {
+    height:60vh;
+}
+
 .parallax_mid_layer {
-    height: 90vh;
+    height: 80vh;
     background-image: url(../images/brisketcooked.webp);
     background-position: center;
     background-repeat: no-repeat;
@@ -188,7 +197,7 @@ a {
 }
 
 .parallax_mid_layer_brisket {
-    height: 120vh;
+    height: 100vh;
     background-image: url(../images/brisketraw.webp);
     background-position: center;
     background-repeat: no-repeat;
@@ -257,6 +266,7 @@ a {
 
 .parallax_bot_layer {
     margin-top:15vh;
+    height:150vh
 }
 
 .parallax_bot_layer_woodchunks {
@@ -458,36 +468,20 @@ a {
 
 @media screen and (max-width: 700px) {
 
-    .nav_bar {
-        width:60px;
-    }
-
-    .nav_bar:hover {
-        width: 80%
-    }
-
-    .nav_bar_logo {
-        width:60px
-    }
-
     .information_h1 {
         width: 70%;
-        margin-left:30px
     }
 
     .information_h2 {
         width: 70%;
-        margin-left:30px
     }
 
     .information_text {
         width: 70%;
-        margin-left:30px
     }
 
     .information_list {
         width: 70%;
-        margin-left:30px
     }
 
     .gallery li img {
@@ -518,9 +512,9 @@ a {
     .parallax_mid_layer_porkbutt, .parallax_mid_layer_porkbuttcooked {
         margin-left: unset
     }
-    
+
     .parallax_wrapper {
-        margin-left: 60px;
+        margin-left: unset;
     }
 
     .outro_screen_brisket, .outro_screen_pulledpork {
@@ -538,6 +532,14 @@ a {
         margin-top: 30vh
     }
 
+    .parallax_bot_layer {
+        height:180vh;
+    }
+
+    .parallax_mid_layer_porkbuttcooked {
+        height: 120vh;
+    }
+
     .intro_screen_rubs {
         height: 40vh;
         background-position-y: top;
@@ -545,6 +547,10 @@ a {
 
     .parallax_mid_layer_ribs {
         margin-top: 20vh;
+    }
+
+    .parallax_top_layer {
+        height:150vh;
     }
 
     .outro_screen_ribs {
