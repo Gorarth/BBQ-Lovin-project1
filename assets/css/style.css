@@ -27,6 +27,9 @@ a {
 }
 
 /* nav bar css */
+#nav_button_toggle {
+    display:none
+}
 
 .nav_bar {
     height: 100%;
@@ -70,22 +73,6 @@ a {
 
 .nav_bar_images {
     font-size: 50px;
-}
-
-.nav_bar:hover {
-    width: 500px;
-}
-
-.nav_bar:hover a {
-    display: block;
-}
-
-.nav_bar:hover p {
-    display: block;
-}
-
-.nav_bar a:hover {
-    border-bottom: solid #b30000 3px;
 }
 
 /* end of nav bar ccs - start of parallax effect css */
@@ -217,6 +204,17 @@ a {
     position: relative;
     transform-style:preserve-3d;
     background-size:60vh
+}
+
+.parallax_top_layer_ribs {
+    height: 80vh;
+    background-image: url(/assets/images/ribs_getting_rubbed.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+    transform-style:preserve-3d;
+    background-size:90vh
 }
 .parallax_mid_layer_ribs {
     height: 100vh;
@@ -552,8 +550,69 @@ a {
     .outro_screen_ribs {
         background-size: 50vh;
     }
+
+    .nav_bar_logo_largescreen {
+        display:none;
+    }
+
+    .nav_bar_button {
+        width: 75px;
+        position: fixed;
+        z-index: 333;
+        margin-top: 20px;
+        color:#b30000;
+        font-size: 70px;
+        display: flex;
+        flex-direction: column;
+        z-index: 500;
+    }
+
+    #nav_button_toggle:checked + .nav_bar {
+        display:block;
+        width: 80%;
+        
+    }
+
+    #nav_button_toggle:checked + .nav_bar a {
+        display:block
+    }
+
+    #nav_button_toggle:checked + .nav_bar_p {
+        display:block
+    }
+
+    .nav_bar {
+        display:none;
+    }
+
 }
 
-@media screen and (min-width: 1200px) {  
+@media screen and (min-width: 700px) {  
+    .nav_bar_button {
+        display:none;
+    }
+
+    .nav_bar_logo {
+        display:none;
+    }
+
+    .nav_bar_logo_largescreen {
+        max-width: 100px;
+    }
+
+    .nav_bar:hover {
+        width: 500px;
+    }
     
+    .nav_bar:hover a {
+        display: block;
+    }
+    
+    .nav_bar:hover p {
+        display: block;
+    }
+    
+    .nav_bar a:hover {
+        border-bottom: solid #b30000 3px;
+    }
 }
