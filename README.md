@@ -6,6 +6,44 @@ This is a website designed for people who would like to learn how to smoke meats
 
 ![Am i responive image](../BBQ-Lovin-project1/assets/readmeimages/amiresponsive.png)
 
+<h2 style="text-align: center;">User Stories</h2>
+
+- First time visitors will want to be able to understand the purpose of the site and be able to navigate through the recipes and information easily.
+
+- returning visitors will want to find different recipes to try out and be able to contact the site to ask questions on problems they have had or for other recipes.
+
+- frequent users will want to see new recipes added and keep up to date on any information or news added to the site reguarding BBQ.
+
+<br>
+<br>
+
+
+<h2 style="text-align: center;">Design</h2>
+
+- The colour scheme of the website will be black, red and white.
+
+- The images used are of food what has been smoked and BBQ'd, to draw people in and have them wanting to do it themselves and entice the user into looking through the site more.
+
+- The main font will be Roboto used throughout the whole website with sans serif as the fallback font. Roboto is a clean and easy reading font while also looking good.
+
+<br>
+<br>
+
+<h2 style="text-align: center;"> Wireframes</h2>
+
+- Below is a link in PDF to my wireframes for my website. This PDF also includes wireframes for mobile and desktop.
+
+[Link to wireframe](assets/readmeimages/PDFwireframeP1.pdf)
+
+
+<br>
+<br>
+
+<h2 style="text-align: center;">Tech</h2>
+
+- This website features interactive elements aswell as being fulling responsive on all devices.
+- The Languages used to create this website is HTML5 and CSS3
+
 <br><br>
 
 <h2 style="text-align: center;">Features</h2>
@@ -44,46 +82,50 @@ This is a website designed for people who would like to learn how to smoke meats
 
     - the mobile version of the gallery is a stacked single column. The "instagram scroll" effect. People spend there lifes scrolling down on sites and this is no different. Different pictures as they scroll will make them want try the food and therefore cook it.
         - <img src="assets/readmeimages/site-gallery.png" height="400px">
+        <br>
+4. Recipe Pages
+    - the recipes within the site are the main reason people will come to the website.
+    
+    - the pages are spread out in a way that it is easy to follow by just scrolling down, with photos between some of the steps to help the user know what to do.
+    <br>
+
+<h3>Future Features</h3>
+
+1. Search Options
+    - Once the site has more recipes, I can implement a search bar using keywords to find recipes based on the users search word.
+
+2. News and membership
+    - Once the website has received a good amount of traffic and repeat users, i can implement a news section and a membership club
+        - The News section can be viewable by all and include information like
+            - new recipes
+            - new BBQ/smoker options
+            - Event updates from compitions
+        - Membership club can include an email subscription, which can send emails when the news is updated. could also implement a hidden forum for bbq enthusiasts to come together and discuss there own recipes and troubleshoot any problems they have to other members.
 
 <br><br>
 
-<h2 style="text-align: center;">User Stories</h2>
+<h2 style="text-align: center">Validator Testing</h2>
 
-- First time visitors will want to be able to understand the purpose of the site and be able to navigate through the recipes and information easily.
+- all HTML Pages and CSS file has been through validator testing with zero problems back.
 
-- returning visitors will want to find different recipes to try out and be able to contact the site to ask questions on problems they have had or for other recipes.
+    - CSS <a href="http://jigsaw.w3.org/css-validator/check/referer">
+            <img style="border:0;width:88px;height:31px"
+                src="http://jigsaw.w3.org/css-validator/images/vcss"
+                alt="Valid CSS!" />
+        </a>
 
-- frequent users will want to see new recipes added and keep up to date on any information or news added to the site reguarding BBQ.
+    - [Index HTML](https://validator.w3.org/nu/?doc=https%3A%2F%2Fgorarth.github.io%2FBBQ-Lovin-project1%2Findex.html)
 
-<br>
-<br>
+    - [Gallery HTML](https://validator.w3.org/nu/?doc=https%3A%2F%2Fgorarth.github.io%2FBBQ-Lovin-project1%2Fgallery.html)
 
+    - [Brisket Recipe HTML](https://gorarth.github.io/BBQ-Lovin-project1/Recipes/brisket.html)
 
-<h2 style="text-align: center;">Design</h2>
+    - [Pulled Pork Recipe HTML](https://gorarth.github.io/BBQ-Lovin-project1/Recipes/pulledpork.html)
 
-- The colour scheme of the website will be black, red and white.
+    - [Baby Back Ribs Recipe HTML](https://validator.w3.org/nu/?doc=https%3A%2F%2Fgorarth.github.io%2FBBQ-Lovin-project1%2FRecipes%2Fribs.html)
 
-- The images used are of food what has been smoked and BBQ'd, to draw people in and have them wanting to do it themselves and entice the user into looking through the site more.
-
-- The main font will be Roboto used throughout the whole website with sans serif as the fallback font. Roboto is a clean and easy reading font while also looking good.
-
-<br>
-<br>
-
-<h2 style="text-align: center;"> Wireframes</h2>
-
-- Below is a link in PDF to my wireframes for my website. This PDF also includes wireframes for mobile and desktop.
-
-[Link to wireframe](/assets/PDFwireframeP1.pdf)
-
-
-<br>
-<br>
-
-<h2 style="text-align: center;">Tech</h2>
-
-- This website features interactive elements aswell as being fulling responsive on all devices.
-- The Languages used to create this website is HTML5 and CSS3
+    - [Our Rubs Recipe HTML](https://validator.w3.org/nu/?doc=https%3A%2F%2Fgorarth.github.io%2FBBQ-Lovin-project1%2FRecipes%2Frubs.html    )
+ 
 
 
 
