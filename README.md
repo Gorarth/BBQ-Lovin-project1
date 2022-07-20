@@ -1,12 +1,34 @@
-<body>
-<h1 style="text-align: center;">BBQ Lovin</h1>
-<p style="text-align: center;">
+# BBQ Lovin
+
 This is a website designed for people who would like to learn how to smoke meats and BBQ foods. It has been made to be responsive and accessible on a range of devices. The site will be useful for people who want to follow recipes and discover different smoking methods and uts of meat.
-</p>
+
+<br>
 
 ![Am i responive image](../BBQ-Lovin-project1/assets/readmeimages/amiresponsive.png)
 
-<h2 style="text-align: center;">User Stories</h2>
+<br>
+
+## Contents
+
+- [User Stories](#user-stories)
+- [Design](#design)
+- [Wireframes](#wireframes)
+- [Tech](#tech)
+- [Features](#features)
+    - [Existing Features](#existing-features)
+        - [Navigation Bar](#1--navigation-bar)
+        - [landing page](#2--landing-page)
+        - [The Gallery](#3--the-gallery)
+        - [Recipe Pages](#4--recipe-pages)
+    - [Future Features](#future-features)
+        - [Search Options](#1--search-options)
+        - [News and Membership](#2--news-and-membership)
+- [Validator Testing](#validator-testing)
+
+
+<br>
+<br>
+## User Stories
 
 - First time visitors will want to be able to understand the purpose of the site and be able to navigate through the recipes and information easily.
 
@@ -18,7 +40,7 @@ This is a website designed for people who would like to learn how to smoke meats
 <br>
 
 
-<h2 style="text-align: center;">Design</h2>
+## Design
 
 - The colour scheme of the website will be black, red and white.
 
@@ -29,7 +51,7 @@ This is a website designed for people who would like to learn how to smoke meats
 <br>
 <br>
 
-<h2 style="text-align: center;"> Wireframes</h2>
+## Wireframes
 
 - Below is a link in PDF to my wireframes for my website. This PDF also includes wireframes for mobile and desktop.
 
@@ -39,18 +61,18 @@ This is a website designed for people who would like to learn how to smoke meats
 <br>
 <br>
 
-<h2 style="text-align: center;">Tech</h2>
+## Tech
 
 - This website features interactive elements aswell as being fulling responsive on all devices.
 - The Languages used to create this website is HTML5 and CSS3
 
 <br><br>
 
-<h2 style="text-align: center;">Features</h2>
-<h3>Existing Features</h3>
+## Features
+### Existing Features
 <br>
 
-1. Navigation Bar
+1. #### Navigation Bar
     
     - You will find the Navigation bar on all pages. It is responsive and intuitive. 
     
@@ -66,7 +88,7 @@ This is a website designed for people who would like to learn how to smoke meats
         <img align="center" src="assets/readmeimages/desktop-navbar.png" height="350px"> <img align="right" src="assets/readmeimages/mobile-navbar.png" height="350px">
 <br>
 
-2. Landing Page
+2. #### Landing Page
     - The first image seen on the landing page is of chicken wings and our LED Logo sign.
     
     - Users will instantly see our logo, along with the chicken wings, giving them the idea they are in the right place for what they came for - BBQ Food.
@@ -75,7 +97,7 @@ This is a website designed for people who would like to learn how to smoke meats
 
         - <img align="center" src="assets/readmeimages/landingpage.png" height="400px">
         <br>
-3. The Gallery
+3. #### The Gallery
     - Our Gallery will give the users lots of images to see what kind of food they can expect to be cooking using our recipes. 
     
     - It's important for the images to stand out to give the users that "food envy" effect and make them want to eat it. Giving them a polaroid effect and a stacked look, the users can clearly see all photos and make them salavate.
@@ -83,18 +105,18 @@ This is a website designed for people who would like to learn how to smoke meats
     - the mobile version of the gallery is a stacked single column. The "instagram scroll" effect. People spend there lifes scrolling down on sites and this is no different. Different pictures as they scroll will make them want try the food and therefore cook it.
         - <img src="assets/readmeimages/site-gallery.png" height="400px">
         <br>
-4. Recipe Pages
+4. #### Recipe Pages
     - the recipes within the site are the main reason people will come to the website.
     
     - the pages are spread out in a way that it is easy to follow by just scrolling down, with photos between some of the steps to help the user know what to do.
     <br>
 
-<h3>Future Features</h3>
+### Future Features 
 
-1. Search Options
+1. #### Search Options
     - Once the site has more recipes, I can implement a search bar using keywords to find recipes based on the users search word.
 
-2. News and membership
+2. #### News and membership
     - Once the website has received a good amount of traffic and repeat users, i can implement a news section and a membership club
         - The News section can be viewable by all and include information like
             - new recipes
@@ -104,7 +126,7 @@ This is a website designed for people who would like to learn how to smoke meats
 
 <br><br>
 
-<h2 style="text-align: center">Validator Testing</h2>
+## Validator Testing
 
 - all HTML Pages and CSS file has been through validator testing with zero problems back.
 
@@ -127,8 +149,3 @@ This is a website designed for people who would like to learn how to smoke meats
     - [Our Rubs Recipe HTML](https://validator.w3.org/nu/?doc=https%3A%2F%2Fgorarth.github.io%2FBBQ-Lovin-project1%2FRecipes%2Frubs.html    )
  
 
-
-
-
-
-</body>
