@@ -212,7 +212,9 @@ a {
     background-attachment: fixed;
     position: relative;
     transform-style:preserve-3d;
-    background-size:60vh
+    background-size:60vh;
+    z-index: -10;
+    opacity: 0.8;
 }
 
 .parallax_top_layer_ribs {
@@ -469,7 +471,10 @@ a {
 @media screen and (max-width: 700px) {
 
     .information_h1, .information_h2, .information_h2_no_underline, .information_text, .information_list {
-        width: 70%;
+        width:unset;
+        margin-left:unset;
+        
+        width: 90%;
     }
 
     .gallery li img {
@@ -497,12 +502,16 @@ a {
         left: unset; 
     }
 
-    .parallax_wrapper, .information_h1, .information_h2, .information_h2_no_underline, .information_text, .information_list, .parallax_mid_layer_porkbutt, .parallax_mid_layer_porkbuttcooked {
+    .parallax_wrapper, .parallax_mid_layer_porkbutt, .parallax_mid_layer_porkbuttcooked {
         margin-left: unset;
     }
 
-    .outro_screen_brisket, .outro_screen_pulledpork {
+    .outro_screen_pulledpork {
         margin-top: 20vh
+    }
+
+    .outro_screen_brisket {
+        margin-top:30vh
     }
 
     .outro_screen_pulledpork {
@@ -535,6 +544,10 @@ a {
 
     .parallax_top_layer {
         height:220vh;
+    }
+
+    #parallax_top_layer {
+        height:130vh
     }
 
     .outro_screen_ribs {
