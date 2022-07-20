@@ -361,7 +361,7 @@ a {
 
 .gallerypic1 {
     z-index: 2;
-    transform: rotate (10deg);
+    transform: rotate(10deg);
     -webkit-transform: rotate(10deg);
 	-moz-transform: rotate(10deg);
     left: 20%;
@@ -370,7 +370,7 @@ a {
 
 .gallerypic2 {
     z-index: 3;
-    transform: rotate (-8deg);
+    transform: rotate(-8deg);
     -webkit-transform: rotate(-8deg);
 	-moz-transform: rotate(-8deg);
     left: 35%;
@@ -379,7 +379,7 @@ a {
 
 .gallerypic3 {
     z-index: 5;
-    transform: rotate (19deg);
+    transform: rotate(19deg);
     -webkit-transform: rotate(19deg);
 	-moz-transform: rotate(19deg);
     left: 50%;
@@ -388,7 +388,7 @@ a {
 
 .gallerypic4 {
     z-index: 3;
-    transform: rotate (-28deg);
+    transform: rotate(-28deg);
     -webkit-transform: rotate(-28deg);
 	-moz-transform: rotate(-28deg);
     left:65%;
@@ -397,7 +397,7 @@ a {
 
 .gallerypic5 {
     z-index: 3;
-    transform: rotate (28deg);
+    transform: rotate(28deg);
     -webkit-transform: rotate(28deg);
 	-moz-transform: rotate(28deg);
     left: 27.5%;
@@ -406,7 +406,7 @@ a {
 
 .gallerypic6 {
     z-index: 4;
-    transform: rotate (-2deg);
+    transform: rotate(-2deg);
     -webkit-transform: rotate(-2deg);
 	-moz-transform: rotate(-2deg);
     left: 42.5%;
@@ -415,7 +415,7 @@ a {
 
 .gallerypic7 {
     z-index: 11;
-    transform: rotate (11deg);
+    transform: rotate(11deg);
     -webkit-transform: rotate(11deg);
 	-moz-transform: rotate(11deg);
     left: 57.5%;
@@ -424,7 +424,7 @@ a {
 
 .gallerypic8 {
     z-index: 3;
-    transform: rotate (-21deg);
+    transform: rotate(-21deg);
     -webkit-transform: rotate(-21deg);
 	-moz-transform: rotate(-21deg);
     top:70%;
@@ -433,7 +433,7 @@ a {
 
 .gallerypic9 {
     z-index: 6;
-    transform: rotate (17deg);
+    transform: rotate(17deg);
     -webkit-transform: rotate(17deg);
 	-moz-transform: rotate(17deg);
     top:70%;
@@ -442,7 +442,7 @@ a {
 
 .gallerypic10 {
     z-index: 7;
-    transform: rotate (-15deg);
+    transform: rotate(-15deg);
     -webkit-transform: rotate(-15deg);
 	-moz-transform: rotate(-15deg);
     top:70%;
@@ -453,7 +453,7 @@ a {
     top:70%;
     left:65%;
     z-index: 9;
-    transform: rotate (21deg);
+    transform: rotate(21deg);
     -webkit-transform: rotate(21deg);
 	-moz-transform: rotate(21deg);
 }
