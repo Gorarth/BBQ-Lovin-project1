@@ -29,8 +29,11 @@ This is a website designed for people who would like to learn how to smoke meats
         - [News and Membership](#2--news-and-membership)
 - [Deployment](#deployment)
 - [Testing](#testing)
+    - [Manual Testing](#manual-testing)
     - [Validator Testing](#validator-testing)
     - [Solved Bugs](#solved-bugs)
+    - [Lighthouse Tests](#lighthouse)
+- [Credits](#credits)
 - - - 
 
 ## Initial Discussion
@@ -182,6 +185,26 @@ In my mid meeting with my mentor, we desided to move away from the first draft l
 
 We went for a more parallax view with the images coming and going as you scroll down.
 
+## Manual Testing
+
+I Manually tested the website on a number of different mobile devices using google chrome developer tools to make sure they where responsive. 
+- iPhone 13 Pro
+- iPhone 12 Pro
+- Pixel5
+- Samsung Galaxy S20 Ultra
+- iPad Air
+- Samsung Galaxy A51/71
+- Surface Pro 7 
+
+I also tested the website on a number of browsers.
+- Google Chrome
+- Firefox 
+- Microsoft Edge
+
+With these tests i test every single link from each page on the navigation bar. All links worked and lead to where expect. Links leading to external page also opened in a new tab.
+
+All images displayed correctly and didn't cause any issues on the devices tested.
+
 ## Validator Testing
 
 - all HTML Pages and CSS file has been through validator testing with zero problems back.
@@ -208,10 +231,35 @@ We went for a more parallax view with the images coming and going as you scroll 
 
  - Images and links on deployed site failed to load and had incorrect paths. This was solved when i changed the file paths using ../, using the . to go back from the current folder. 
 
- <img align="left" src="assets/readmeimages/image bug.png" height="200px"><img align="right" src="assets/readmeimages/page bug.png" height="200px">
+ <img align="center" src="assets/readmeimages/image bug.png" height="200px"><img align="center" src="assets/readmeimages/page bug.png" height="200px">
 
  - the images used was making the load of the page take way too long. This was easily fixed when i changed them from jpeg to webp and compressed them down.
 
+ - one of the images wasnt displaying after compressing them. found the file path was wrong and changed to correct path to fix.
+
+
 [Back to Contents](#contents)
 - - - 
+
+## Lighthouse
+
+Using Lighthouse found within google chromes developer tools, i tested the performance, accessibilty, best practices and SEO of the website.
+
+Below is an image of the testing in order of;
+ - Index
+ - Gallery
+ - Brisket Recipe
+ - Pulled Pork Recipe
+ - Baby Back Ribs Recipe
+ - Our Rubs Recipes
+
+ <img src="assets/readmeimages/desktop-lighthouse.png">
+
+[Back to Contents](#contents)
+ - - -
+
+ ## Credits
+
+ 
+
 
