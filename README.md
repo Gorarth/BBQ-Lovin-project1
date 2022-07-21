@@ -260,6 +260,26 @@ Below is an image of the testing in order of;
 
  ## Credits
 
- 
+Content for the website was written by myself, Chris English.
+
+Images of pictures used where taken by myself, Chris Enlgish.
+
+6 photos was used from free media sites
+
+[pxhere](https://pxhere.com)
+
+- woodchunks
+- lemon and herb
+- spices
+
+[pexels](pexels.com)
+
+- spices2
+- pulled pork bun
+
+[pixabar](pixabay.com)
+
+- ribsgettingrubed
+
 
 
