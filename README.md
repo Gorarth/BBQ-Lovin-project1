@@ -6,6 +6,7 @@ This is a website designed for people who would like to learn how to smoke meats
 
 ![Am i responive image](assets/readmeimages/amiresponsive.png)
 
+[View the BBQ Lovin website here on GitHub Pages](https://gorarth.github.io/BBQ-Lovin-project1/)
 - - - 
 
 ## Contents
@@ -16,6 +17,7 @@ This is a website designed for people who would like to learn how to smoke meats
 - [Design](#design)
 - [Wireframes](#wireframes)
 - [Tech](#tech)
+- [Additonal Programs Used](#additional-programs-used)
 - [Features](#features)
     - [Existing Features](#existing-features)
         - [Navigation Bar](#1--navigation-bar)
@@ -25,8 +27,10 @@ This is a website designed for people who would like to learn how to smoke meats
     - [Future Features](#future-features)
         - [Search Options](#1--search-options)
         - [News and Membership](#2--news-and-membership)
-- [Validator Testing](#validator-testing)
-
+- [Deployment](#deployment)
+- [Testing](#testing)
+    - [Validator Testing](#validator-testing)
+    - [Solved Bugs](#solved-bugs)
 - - - 
 
 ## Initial Discussion
@@ -47,8 +51,8 @@ BBQ Lovin is an online recipe website, focused around American BBQ smoked foods.
 
 - frequent users will want to see new recipes added and keep up to date on any information or news added to the site reguarding BBQ.
 
+[Back to Contents](#contents)
 - - - 
-
 
 ## Design
 
@@ -56,10 +60,11 @@ BBQ Lovin is an online recipe website, focused around American BBQ smoked foods.
 
 - The images used are of food what has been smoked and BBQ'd, to draw people in and have them wanting to do it themselves and entice the user into looking through the site more.
 
-    - Most photos where my own. Photos what 
+    - Most photos where my own. Photos what i have taken from google are credited below.
 
 - The main font will be Roboto used throughout the whole website with sans serif as the fallback font. Roboto is a clean and easy reading font while also looking good.
 
+[Back to Contents](#contents)
 - - - 
 
 ## Wireframes
@@ -68,6 +73,7 @@ BBQ Lovin is an online recipe website, focused around American BBQ smoked foods.
 
 [Link to wireframe](assets/readmeimages/PDFwireframeP1.pdf)
 
+[Back to Contents](#contents)
 - - - 
 
 ## Tech
@@ -89,11 +95,15 @@ BBQ Lovin is an online recipe website, focused around American BBQ smoked foods.
 
 - Am I Responive used to show the website on a range of devices
 
+- Cloud Converter was used to change all images into a webp format
+
+- Tiny PNG was used to compress the images
+
+[Back to Contents](#contents)
 - - - 
 
 ## Features
 ### Existing Features
-<br>
 
 1. #### Navigation Bar
     
@@ -147,7 +157,30 @@ BBQ Lovin is an online recipe website, focused around American BBQ smoked foods.
             - Event updates from compitions
         - Membership club can include an email subscription, which can send emails when the news is updated. could also implement a hidden forum for bbq enthusiasts to come together and discuss there own recipes and troubleshoot any problems they have to other members.
 
+[Back to Contents](#contents)
 - - - 
+
+## Deployment
+
+GitHug Pages was used to deploy the website. I did this by
+- Log in to GitHub
+- Went into my repository
+- Clicked on the settings tab
+- Find and selected the Pages link in the navigation bar
+- in the source section, choose "main" from the drop down branch menu.
+- selected "Root" from the down down folder menu
+- Save. Website is now live when highlighted Green.
+
+[Back to Contents](#contents)
+- - -
+
+# Testing
+
+I tested the project throughout building the site. I used the browser option within GitPod and then used Google Dev Tools to assit in extra tests. 
+
+In my mid meeting with my mentor, we desided to move away from the first draft look on wireframes as it didnt flow nicely between the information given out, and the landing page needed to be more "in your face" with what we are about, the food.
+
+We went for a more parallax view with the images coming and going as you scroll down.
 
 ## Validator Testing
 
@@ -171,4 +204,14 @@ BBQ Lovin is an online recipe website, focused around American BBQ smoked foods.
 
     - [Our Rubs Recipe HTML](https://validator.w3.org/nu/?doc=https%3A%2F%2Fgorarth.github.io%2FBBQ-Lovin-project1%2FRecipes%2Frubs.html    )
  
+ ## Solved Bugs
+
+ - Images and links on deployed site failed to load and had incorrect paths. This was solved when i changed the file paths using ../, using the . to go back from the current folder. 
+
+ <img align="left" src="assets/readmeimages/image bug.png" height="200px"><img align="right" src="assets/readmeimages/page bug.png" height="200px">
+
+ - the images used was making the load of the page take way too long. This was easily fixed when i changed them from jpeg to webp and compressed them down.
+
+[Back to Contents](#contents)
+- - - 
 
