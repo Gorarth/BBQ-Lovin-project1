@@ -203,7 +203,7 @@ a {
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: 50%;
+    background-size: 90%;
 }
 
 .parallax_mid_layer_lemonandherbs {
@@ -279,6 +279,7 @@ a {
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-size: 50%;
 }
 
 /* end of parallax effect css */

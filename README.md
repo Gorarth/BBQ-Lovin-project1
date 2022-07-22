@@ -1,4 +1,4 @@
-# BBQ Lovin
+# BBQ Lovin Website
 
 This is a website designed for people who would like to learn how to smoke meats and BBQ foods. It has been made to be responsive and accessible on a range of devices. The site will be useful for people who want to follow recipes and discover different smoking methods and uts of meat.
 
@@ -63,7 +63,7 @@ BBQ Lovin is an online recipe website, focused around American BBQ smoked foods.
 
 - The images used are of food what has been smoked and BBQ'd, to draw people in and have them wanting to do it themselves and entice the user into looking through the site more.
 
-    - Most photos where my own. Photos what i have taken from google are credited below.
+    - Most photos where my own. Photos what i have taken from free image sites are credited below.
 
 - The main font will be Roboto used throughout the whole website with sans serif as the fallback font. Roboto is a clean and easy reading font while also looking good.
 
@@ -101,6 +101,10 @@ BBQ Lovin is an online recipe website, focused around American BBQ smoked foods.
 - Cloud Converter was used to change all images into a webp format
 
 - Tiny PNG was used to compress the images
+
+- W3schools helped with some coding issues and help with some syntax's.
+
+- Slack was used when i got stuck and asked for help within the coding community.
 
 [Back to Contents](#contents)
 - - - 
@@ -237,6 +241,9 @@ All images displayed correctly and didn't cause any issues on the devices tested
 
  - one of the images wasnt displaying after compressing them. found the file path was wrong and changed to correct path to fix.
 
+ - I came across a "parse error" when i did a lighthouse check which effected the rating massively. I used slack to get some help from the members and Matt Broden noticed a space within my code which was causing the problem. this small problem fixed all the issues with my lighthouse test.
+
+<img align="center" src="assets/readmeimages/parse error code.png" height="300px"><img align="center" src="assets/readmeimages/parse error.png" height="300px">
 
 [Back to Contents](#contents)
 - - - 
@@ -268,18 +275,26 @@ Images of pictures used where taken by myself, Chris Enlgish.
 
 [pxhere](https://pxhere.com)
 
-- woodchunks
-- lemon and herb
-- spices
+- [Wood Chunks](assets/images/woodchunks.webp)
+- [Lemon and herb](assets/images/lemon_and_herbs.webp)
+- [Spices](assets/images/spices.webp) 
 
-[pexels](pexels.com)
+[pexels](https://pexels.com)
 
-- spices2
-- pulled pork bun
+- [Second Spices Photo](assets/images/spices1.webp)
+- [Pulled Pork Bun](assets/images/pulledporkbun.webp)
 
-[pixabar](pixabay.com)
+[pixabar](https://pixabay.com)
 
-- ribsgettingrubed
+- [Baby Back Ribs on Grill](assets/images/ribs_getting_rubbed.webp)
 
+[Back to Contents](#contents)
+- - -
 
+## Acknowledgements 
 
+I'd like to thank the people who have helped and assited me on completing my firt project.
+
+- Narender, My mentor
+- Kera Cudmore - helped multiple times with errors and confusions. 
+- Matt Bodden - noticed the reason for my parse error
