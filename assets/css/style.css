@@ -328,7 +328,7 @@ a {
     padding: 15px;
     width: 60%;
     margin-left: 15%;
-    color:#b30000
+    color:#b30000;
 }
 
 .information_list {
@@ -624,5 +624,13 @@ a {
     
     .nav_bar a:hover {
         border-bottom: solid #b30000 3px;
+    }
+
+    .information_list, .information_text {
+        font-size: 20px;
+    }
+
+    .parallax_mid_layer_ribs {
+        margin-top: 15vh;
     }
 }

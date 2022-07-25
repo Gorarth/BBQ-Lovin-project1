@@ -231,7 +231,7 @@ All images displayed correctly and didn't cause any issues on the devices tested
 
     - [Our Rubs Recipe HTML](https://validator.w3.org/nu/?doc=https%3A%2F%2Fgorarth.github.io%2FBBQ-Lovin-project1%2FRecipes%2Frubs.html    )
  
- ## Solved Bugs
+ ## Solved Bugs and Issues
 
  - Images and links on deployed site failed to load and had incorrect paths. This was solved when i changed the file paths using ../, using the . to go back from the current folder. 
 
