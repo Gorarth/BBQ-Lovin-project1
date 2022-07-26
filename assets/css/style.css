@@ -346,7 +346,7 @@ a {
 
 .gallery {
     height:140vh;
-    margin-right: 50%;
+    /* margin-right: 50%; */
 }
 
 .background figure {
@@ -359,7 +359,7 @@ a {
     -5px -5px 30px 7px rgba(0, 0, 0, 0.22);
 }
 
-.gallery li img {
+.background figure img {
     height:300px;
     width:300px;
 }
