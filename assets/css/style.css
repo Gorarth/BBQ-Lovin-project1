@@ -20,7 +20,7 @@ footer {
     text-decoration: none;
     bottom:0;
     width:100%;
-    height: 15vh;
+    height: 15%;
 }
 
 a {
@@ -28,13 +28,14 @@ a {
 }
 
 /* nav bar css */
-#nav_button_toggle {
+
+.nav_button_toggle_class {
     display:none
 }
 
 .nav_bar {
-    height: 100%;
-    width: 100px;
+    height: 100vh;
+    width: 11vh;
     position: fixed;
     z-index: 333;
     top: 0;
@@ -287,6 +288,7 @@ a {
 .background_image {
     background: url(../images/woodenbackgroundopacity60.webp);
     width: 100%;
+    height: 100%;
     top:0;
     right:0;
 }
@@ -348,18 +350,27 @@ a {
     margin-right: 50%;
 }
 
-.gallery li {
+.background figure {
 	float: left;
-	padding: 20px 10px 30px 10px;
+	padding: 20px 10px 20px 10px;
 	background: rgb(204, 204, 204);
-	border: 1.5px solid #b30000;
     list-style: none;
     position: absolute;
+    box-shadow: 5px 5px 30px 7px rgba(0, 0, 0, 0.25),
+    -5px -5px 30px 7px rgba(0, 0, 0, 0.22);
 }
 
 .gallery li img {
     height:300px;
     width:300px;
+}
+
+.figcaption {
+    color:#b30000;
+    text-decoration: underline;
+    margin-top: 5%;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.25);
+    letter-spacing: 4px;
 }
 
 .gallerypic1 {
@@ -461,21 +472,20 @@ a {
 	-moz-transform: rotate(21deg);
 }
 
-.imghover:hover {
+.background figure:hover {
     z-index: 99;
     
     transform: rotate(0deg);
-    transition: 0.5s;
-	box-shadow: 4px 4px 8px rgba(0,0, 0, 0.5);
-    background:white;
-    border: 3px solid #b30000;
+    transition: 0.6s;
+	box-shadow: 5px 5px 30px 7px rgba(0, 0, 0, 0.7),
+    -5px -5px 30px 7px rgba(0, 0, 0, 0.7);
 }
 
 @media screen and (max-width: 700px) {
 
     .information_h1, .information_h2, .information_h2_no_underline, .information_text, .information_list {
-        width:unset;
-        margin-left:unset;
+        width:0 ;
+        margin-left:0 ;
         
         width: 90%;
     }
@@ -488,9 +498,11 @@ a {
     .gallery li {
         all:unset;
 
-        padding: 20px 10px 30px 10px;
+        padding: 20px 10px 40px 10px;
 	    background: rgb(204, 204, 204);
-	    border: 1.5px solid #b30000;
+        margin-top: 15%;
+        box-shadow: 5px 5px 30px 7px rgba(0, 0, 0, 0.25),
+        -5px -5px 30px 7px rgba(0, 0, 0, 0.22);
     }
 
     .row {
@@ -577,17 +589,17 @@ a {
         z-index: 500;
     }
 
-    #nav_button_toggle:checked + .nav_bar {
+    .nav_button_toggle_class:checked + .nav_bar {
         display:block;
         width: 80%;
         
     }
 
-    #nav_button_toggle:checked + .nav_bar a {
+    .nav_button_toggle_class:checked + .nav_bar a {
         display:block
     }
 
-    #nav_button_toggle:checked + .nav_bar_p {
+    .nav_button_toggle_class:checked + .nav_bar_p {
         display:block
     }
 
@@ -611,7 +623,7 @@ a {
     }
 
     .nav_bar:hover {
-        width: 500px;
+        width: 50%;
     }
     
     .nav_bar:hover a {
