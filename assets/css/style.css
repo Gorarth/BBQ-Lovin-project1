@@ -14,7 +14,7 @@ body {
 }
 
 footer {
-    margin-bottom: 15px;
+    margin-bottom: 5%;
     text-align: center;
     font-size:300%;
     text-decoration: none;
@@ -83,8 +83,7 @@ a {
     height: 100vh;
     overflow-x: hidden;
     overflow-y: auto;
-    perspective: 300px;
-    margin-left: 90px;
+    margin-left: 11vh;
 }
 
 .parallax_group {
@@ -167,7 +166,7 @@ a {
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center;  
-    margin-top:30px;  
+    margin-top:21vh;  
 }
 
 .outro_screen_ribs {
@@ -228,17 +227,17 @@ a {
     background-attachment: fixed;
     position: relative;
     transform-style:preserve-3d;
-    background-size:90vh
+    background-size:90vh;
 }
 .parallax_mid_layer_ribs {
-    height: 100vh;
+    height: 90vh;
     background-image: url(../images/ribs_getting_rubbed.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     position: relative;
     transform-style:preserve-3d;
-    background-size:90vh
+    background-size:70vh;
 }
 
 .parallax_mid_layer_porkbutt {
@@ -522,10 +521,6 @@ a {
         margin-left: unset;
     }
 
-    .outro_screen_pulledpork {
-        margin-top: 20vh
-    }
-
     .parallax_mid_layer_brisket {
         margin-top:20vh;
     }
@@ -538,7 +533,6 @@ a {
         background-size:contain;
         background-repeat: no-repeat;
         height: 80vh;
-        margin-top:10px
     }
 
     .parallax_bot_layer_media {
@@ -550,16 +544,12 @@ a {
     }
 
     .parallax_mid_layer_porkbuttcooked {
-        height: 60vh;
+        height: 80vh;
     }
 
     .intro_screen_rubs {
         height: 40vh;
         background-position-y: top;
-    }
-
-    .parallax_mid_layer_ribs {
-        margin-top: 20vh;
     }
 
     .parallax_top_layer {
@@ -644,6 +634,6 @@ a {
     }
 
     .parallax_mid_layer_ribs {
-        margin-top: 15vh;
+        margin-top:30vh;
     }
 }

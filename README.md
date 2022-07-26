@@ -29,6 +29,7 @@ This is a website designed for people who would like to learn how to smoke meats
         - [News and Membership](#2--news-and-membership)
 - [Deployment](#deployment)
 - [Testing](#testing)
+    - [User Story Testing](#user-story-testing)
     - [Manual Testing](#manual-testing)
     - [Validator Testing](#validator-testing)
     - [Solved Bugs](#solved-bugs)
@@ -188,6 +189,15 @@ I tested the project throughout building the site. I used the browser option wit
 In my mid meeting with my mentor, we desided to move away from the first draft look on wireframes as it didnt flow nicely between the information given out, and the landing page needed to be more "in your face" with what we are about, the food.
 
 We went for a more parallax view with the images coming and going as you scroll down.
+
+## User Story testing
+
+- First time users can understand the purpose of the website by index landing page. They are instantly drawn into a image of food and a neon sign of our logo. right away, they understand what the webpage is for.
+
+- Returning visitors have multiple recipes for them to test, try and master. This can be seen from the navigation page and a list of different recipes.
+
+- Frequent users will want new recipes and news. This will be achived by updating the webpage often and adding in features such as search bar and news/membership. This can be seen in our future feature ideas.
+
 
 ## Manual Testing
 
