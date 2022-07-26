@@ -495,7 +495,7 @@ a {
         height:250px;
     }
 
-    .gallery li {
+    .background figure {
         all:unset;
 
         padding: 20px 10px 40px 10px;
@@ -503,6 +503,7 @@ a {
         margin-top: 15%;
         box-shadow: 5px 5px 30px 7px rgba(0, 0, 0, 0.25),
         -5px -5px 30px 7px rgba(0, 0, 0, 0.22);
+        list-style: none;
     }
 
     .row {
@@ -583,7 +584,7 @@ a {
         z-index: 333;
         margin-top: 20px;
         color:#b30000;
-        font-size: 70px;
+        font-size: 50px;
         display: flex;
         flex-direction: column;
         z-index: 500;
