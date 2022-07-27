@@ -24,6 +24,10 @@ a {
 
 /* nav bar css */
 
+nav {
+    text-align: center;
+}
+
 .nav_button_toggle_class {
     display:none
 }
