@@ -481,7 +481,7 @@ a {
     -5px -5px 30px 7px rgba(0, 0, 0, 0.7);
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 850px) {
 
     .information_h1, .information_h2, .information_h2_no_underline, .information_text, .information_list {
         width:0 ;
@@ -591,7 +591,7 @@ a {
         display:block
     }
 
-    .nav_button_toggle_class:checked + .nav_bar_p {
+    .nav_button_toggle_class:checked + .nav_bar p {
         display:block
     }
 
@@ -601,7 +601,7 @@ a {
 
 }
 
-@media screen and (min-width: 700px) {  
+@media screen and (min-width: 850px) {  
     .nav_bar_button {
         display:none;
     }
