@@ -33,6 +33,7 @@ This is a website designed for people who would like to learn how to smoke meats
     - [Manual Testing](#manual-testing)
     - [Validator Testing](#validator-testing)
     - [Solved Bugs](#solved-bugs)
+    - [Known Bugs](#known-bugs)
     - [Lighthouse Tests](#lighthouse)
 - [Credits](#credits)
 - - - 
@@ -257,9 +258,11 @@ All images displayed correctly and didn't cause any issues on the devices tested
 
 - I came across an issue where the webpage displayed two scroll bars. Using Dev Tools in google chrome i found the body had applied a "margin:8px" - This was fixed with a "margin: 0;" to the body.
 
+- During testing, by Mateusz Smalarz, on iOS devices the font awesome icons where not working. This was an issue with the script from font awesome, and to fix this i had to use the direct link to CSS in the head of html.
+
 ## Known Bugs
 
-- During testing on iOS devices it was seen that the parallax effect wasnt working on the images on all pages apart from the gallery. Unfortunitly this is a problem with iOS not support this feature to its full effect. It was displaying the images in a static format and not loading them correctly when they should of been. This seems to be a common thing in recent updates through searching forums on this issue.
+- During testing, by Mateusz Smalarz, on iOS devices it was seen that the parallax effect wasnt working on the images on all pages apart from the gallery. Unfortunitly this is a problem with iOS not support this feature to its full effect. It was displaying the images in a static format and not loading them correctly when they should of been. This seems to be a common thing in recent updates through searching forums on this issue.
 
 
 [Back to Contents](#contents)

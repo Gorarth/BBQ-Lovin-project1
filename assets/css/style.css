@@ -76,7 +76,9 @@ nav {
     font-size: 50px;
 }
 
-/* end of nav bar ccs - start of parallax effect css */
+/* end of nav bar ccs - 
+
+start of parallax effect css */
 
 .parallax_wrapper {
     height: 100vh;
@@ -290,9 +292,19 @@ nav {
     right:0;
 }
 
+.footer {
+    margin-top: 30vh;
+}
+
+.gallery_footer {
+    margin-top: 10vh;
+}
+
 .copyright {
     font-size:50%;
 }
+
+/* information tags used for all page headers and text - consistant across all pages. */
 
 .information_h1 {
     font-size:200%;
@@ -480,12 +492,16 @@ nav {
 
 @media screen and (max-width: 850px) {
 
+    /* change all headers and text to have increased width for smaller devices */
+
     .information_h1, .information_h2, .information_h2_no_underline, .information_text, .information_list {
         width:0 ;
         margin-left:0 ;
         
         width: 90%;
     }
+
+    /* change gallery size and responsiveness for smaller devices */
 
     .gallery li img {
         width:250px;
@@ -495,18 +511,19 @@ nav {
     .background figure {
         all:unset;
 
-        padding: 20px 10px 40px 10px;
+        padding: 20px 30px 20px 10px;
 	    background: rgb(204, 204, 204);
         margin-top: 15%;
+        margin-right: 5%;
         box-shadow: 5px 5px 30px 7px rgba(0, 0, 0, 0.25),
         -5px -5px 30px 7px rgba(0, 0, 0, 0.22);
         list-style: none;
+        display: flex;
+        flex-direction: column;
     }
 
     .row {
-        display: flex;
-        flex-wrap: wrap;
-        flex: 100%;
+        display: inline-block;
         margin-left:10%;
     }
     
@@ -514,6 +531,8 @@ nav {
         top: unset;
         left: unset; 
     }
+
+    /* parallax effect changes for smaller divices to remove overlaps and increase responsiveness */
 
     .parallax_wrapper, .parallax_mid_layer_porkbutt, .parallax_mid_layer_porkbuttcooked {
         margin-left: unset;
@@ -562,6 +581,8 @@ nav {
         background-size: 50vh;
     }
 
+    /* nav bar small screen css, and to apply hamburger menu */
+
     .nav_bar_logo_largescreen {
         display:none;
     }
@@ -598,7 +619,24 @@ nav {
 
 }
 
+@media screen and (max-height: 850px) {
+
+    .footer {
+        margin-top: 45vh;
+    }
+}
+
+@media screen and (max-height: 700px) {
+
+    .footer {
+        margin-top: 60vh;
+    }
+}
+
 @media screen and (min-width: 850px) {  
+
+    /* larger screen nav bar css - to hide hamburger menu and decrease menu width */
+
     .nav_bar_button {
         display:none;
     }
@@ -627,9 +665,13 @@ nav {
         border-bottom: solid #b30000 3px;
     }
 
+    /* increase font size for text for larger screens to make it more readable */
+
     .information_list, .information_text {
         font-size: 20px;
     }
+
+    /* css for parallax for larger screens */
 
     .parallax_mid_layer_ribs {
         margin-top:30vh;
