@@ -256,13 +256,14 @@ All images displayed correctly and didn't cause any issues on the devices tested
 
 <img align="center" src="assets/readmeimages/parse error code.png" height="300px"><img align="center" src="assets/readmeimages/parse error.png" height="300px">
 
-- I came across an issue where the webpage displayed two scroll bars. Using Dev Tools in google chrome i found the body had applied a "margin:8px" - This was fixed with a "margin: 0;" to the body.
+- I came across an issue where the webpage displayed two scroll bars. Using Dev Tools in google chrome i found the body had applied a "margin:8px" - This was fixed with a "margin: 0;" to the body. 
+    - This also fixed another bug where on mobile devices you could scroll very slightly to the right.
 
 - During testing, by Mateusz Smalarz, on iOS devices the font awesome icons where not working. This was an issue with the script from font awesome, and to fix this i had to use the direct link to CSS in the head of html.
 
 ## Known Bugs
 
-- During testing, by Mateusz Smalarz, on iOS devices it was seen that the parallax effect wasnt working on the images on all pages apart from the gallery. Unfortunitly this is a problem with iOS not support this feature to its full effect. It was displaying the images in a static format and not loading them correctly when they should of been. This seems to be a common thing in recent updates through searching forums on this issue.
+- During testing, by Mateusz Smalarz, on iOS devices it was seen that the parallax effect wasnt working on the images on all pages apart from the gallery. Unfortunitly this is a problem with iOS not supporting this feature to its full effect. It was displaying the images in a static format and not loading them correctly when they should of been. This seems to be a common thing in recent updates through searching forums on this issue.
 
 
 [Back to Contents](#contents)
@@ -318,3 +319,4 @@ I'd like to thank the people who have helped and assited me on completing my fir
 - Narender, My mentor
 - Kera Cudmore - helped multiple times with errors and confusions. 
 - Matt Bodden - noticed the reason for my parse error
+- Mateusz Smalarz - helped find and fix problems with iOS
