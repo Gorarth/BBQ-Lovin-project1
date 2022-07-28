@@ -1,12 +1,12 @@
 # BBQ Lovin Website
 
-This is a website designed for people who would like to learn how to smoke meats and BBQ foods. It has been made to be responsive and accessible on a range of devices. The site will be useful for people who want to follow recipes and discover different smoking methods and uts of meat.
+This is a website designed for people who would like to learn how to smoke meats and BBQ foods. It has been made to be responsive and accessible on a range of devices. The site will be useful for people who want to follow recipes and discover different smoking methods and cuts of meat.
 
 <br> 
 
 ![Am i responive image](assets/readmeimages/amiresponsive.png)
 
-[View the BBQ Lovin website here on GitHub Pages](https://gorarth.github.io/BBQ-Lovin-project1/)
+[View the BBQ Lovin website here on GitHub Pages](https://gorarth.github.io/BBQ-Lovin-project1/) Right click to open in new page.
 - - - 
 
 ## Contents
@@ -52,9 +52,9 @@ BBQ Lovin is an online recipe website, focused around American BBQ smoked foods.
 
 - First time visitors will want to be able to understand the purpose of the site and be able to navigate through the recipes and information easily.
 
-- returning visitors will want to find different recipes to try out and be able to contact the site to ask questions on problems they have had or for other recipes.
+- Returning visitors will want to find different recipes to try out and be able to contact the site to ask questions on problems they have had or for other recipes.
 
-- frequent users will want to see new recipes added and keep up to date on any information or news added to the site reguarding BBQ.
+- Frequent users will want to see new recipes added and keep up to date on any information or news added to the site reguarding BBQ.
 
 [Back to Contents](#contents)
 - - - 
@@ -135,7 +135,7 @@ BBQ Lovin is an online recipe website, focused around American BBQ smoked foods.
     
     - Users will instantly see our logo, along with the chicken wings, giving them the idea they are in the right place for what they came for - BBQ Food.
 
-    - the bright colors of the LED sign will grab there attention, along with the food presented infront of them.
+    - The bright colors of the LED sign will grab there attention, along with the food presented infront of them.
 
         - <img align="center" src="assets/readmeimages/landingpage.png" height="400px">
         <br>
@@ -144,14 +144,14 @@ BBQ Lovin is an online recipe website, focused around American BBQ smoked foods.
     
     - It's important for the images to stand out to give the users that "food envy" effect and make them want to eat it. Giving them a polaroid effect and a stacked look, the users can clearly see all photos and make them salavate.
 
-    - the mobile version of the gallery is a stacked single column. The "instagram scroll" effect. People spend there lifes scrolling down on sites and this is no different. Different pictures as they scroll will make them want try the food and therefore cook it.
+    - The mobile version of the gallery is a stacked single column. The "instagram scroll" effect. People spend there lifes scrolling down on sites and this is no different. Different pictures as they scroll will make them want try the food and therefore cook it.
         - <img src="assets/readmeimages/site-gallery.png" height="400px">
-        <br>
+
 4. #### Recipe Pages
-    - the recipes within the site are the main reason people will come to the website.
+    - The recipes within the site are the main reason people will come to the website.
     
-    - the pages are spread out in a way that it is easy to follow by just scrolling down, with photos between some of the steps to help the user know what to do.
-    <br>
+    - The pages are spread out in a way that it is easy to follow by just scrolling down, with photos between some of the steps to help the user know what to do.
+    
 
 ### Future Features 
 
@@ -176,9 +176,15 @@ GitHug Pages was used to deploy the website. I did this by
 - Went into my repository
 - Clicked on the settings tab
 - Find and selected the Pages link in the navigation bar
-- in the source section, choose "main" from the drop down branch menu.
-- selected "Root" from the down down folder menu
+- In the source section, choose "main" from the drop down branch menu.
+- Selected "Root" from the down down folder menu
 - Save. Website is now live when highlighted Green.
+
+Forking the GitHub repository:
+
+- Login into GitHub and locate the repository - BBQ Lovin project1
+- At the top of repository in right corner locate the "fork" button and click on it.
+- Choose where you want to save your forked repository.
 
 [Back to Contents](#contents)
 - - -
@@ -222,7 +228,7 @@ All images displayed correctly and didn't cause any issues on the devices tested
 
 ## Validator Testing
 
-- all HTML Pages and CSS file has been through validator testing with zero problems back.
+- All HTML Pages and CSS file has been through validator testing with zero problems back.
 
     - CSS <a href="http://jigsaw.w3.org/css-validator/check/referer">
             <img style="border:0;width:88px;height:31px"
@@ -248,9 +254,9 @@ All images displayed correctly and didn't cause any issues on the devices tested
 
  <img align="center" src="assets/readmeimages/image bug.png" height="200px"><img align="center" src="assets/readmeimages/page bug.png" height="200px">
 
- - the images used was making the load of the page take way too long. This was easily fixed when i changed them from jpeg to webp and compressed them down.
+ - The images used was making the load of the page take way too long. This was easily fixed when i changed them from jpeg to webp and compressed them down.
 
- - one of the images wasnt displaying after compressing them. found the file path was wrong and changed to correct path to fix.
+ - One of the images wasnt displaying after compressing them. found the file path was wrong and changed to correct path to fix.
 
  - I came across a "parse error" when i did a lighthouse check which effected the rating massively. I used slack to get some help from the members and Matt Broden noticed a space within my code which was causing the problem. this small problem fixed all the issues with my lighthouse test.
 
